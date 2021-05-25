@@ -20,9 +20,9 @@ def entry_point(request):
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 
 # google sheet ID for each document
-ug_courses_sheetId = "1tZsYptvGCa6qEF4kRlTSVyDsdhcOyAeyUmDA29QTrhE"
-course_lecturers_sheetId = "1KdW-nySPmITUHsGIicx4Km25y8SqPAxp-YavFTkRqFA"
-lecturer_info_sheetId = "1TxbKaWYp8SjBkrTk2BUD-grNBrPR1aza4VBBAcn4ppc"
+ug_courses_sheetId = "your google sheet credentials here"
+course_lecturers_sheetId = "your google sheets credentials here"
+lecturer_info_sheetId = "your google sheet credentials here"
 
 sheet_range = "Sheet1"
 # credential = ServiceAccountCredentials.from_json_keyfile_name("compeng_sheets.json", scopes=scope)
